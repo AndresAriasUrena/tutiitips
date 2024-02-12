@@ -8,7 +8,7 @@ export default {
         primary: "#2B5C58",//verde oscuro
         // primary: "#FFFFFF",
         secondary: "#F8D0D1",//rosado boton
-        tertiary: "#FEF9F5",//fondo blanco hueso
+        tertiary: "#FEF9F5",//fondo blanco
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",

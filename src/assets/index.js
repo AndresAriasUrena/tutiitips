@@ -1,4 +1,7 @@
 import logo from './logo.svg';
+import menu from './menu.svg';
+import close from './close.svg';
+
 import libroBanner from './libro-banner.png';
 import tulsi from './tulsi-img.png';
 import hero from './hero-img.png';
@@ -16,6 +19,8 @@ import pareja from './servicios/pareja.png';
 
 export{
     logo,
+    menu,
+    close,
     libroBanner,
     tulsi,
     hero,

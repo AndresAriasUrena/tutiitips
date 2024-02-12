@@ -17,7 +17,7 @@ import{
 export const navLinks = [
     {
         id: 'tulsi',
-        title: 'Sobre Tulsi',
+        title: 'Tulsi',
     },
     {
         id: 'servicios',
@@ -29,15 +29,11 @@ export const navLinks = [
     },
     {
         id:'faq',
-        title: 'Preguntas Frecuentes',
+        title: 'FAQ',
     },
     {
         id:'contacto',
         title:'Contacto',
-    },
-    {
-        id:'agendar',
-        title:'Agendar sesión',
     },
 ]
 
