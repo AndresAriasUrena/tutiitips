@@ -10,11 +10,11 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-transparent`}>
+    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-30 bg-transparent md:bg-white`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
           to='/'
-          className='flex items-center gap-2'
+          className='md:flex hidden items-center gap-2'
           onClick={() => {
             setActive('');
             window.scrollTo(0,0)
@@ -38,7 +38,7 @@ const Navbar = () => {
           <a href='#agenda' onClick={()=>{setActive('')}} className='bg-secondary py-2 px-4 rounded-full hover:bg-verdeclaro text-primary hover:text-secondary'>Agendar cita</a>
         </ul>
         <div className='md:hidden flex flex-1 justify-end items-center'>
-            <img src={toggle ? close : menu} alt='boton menu' className='w-9 h-9 fixed z-50 object-contain' 
+            <img src={toggle ? close : menu} alt='boton menu' className='w-9 h-9 mt-20 fixed z-50 object-contain' 
                 onClick={()=>{
                   setToggle(!toggle)
                 }}

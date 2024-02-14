@@ -10,7 +10,7 @@ export default {
         secondary: "#F8D0D1",//rosado boton
         tertiary: "#FEF9F5",//fondo blanco
         selected: '#5E17EB',//morado mdw
-        verdeclaro: '#678477',//morado mdw
+        verdeclaro: '#678477',//verde menu
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
@@ -22,7 +22,7 @@ export default {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-mobile": "url('/src/assets/sm-herobg.png')",
       },
     },
   },
