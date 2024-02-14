@@ -9,6 +9,8 @@ export default {
         // primary: "#FFFFFF",
         secondary: "#F8D0D1",//rosado boton
         tertiary: "#FEF9F5",//fondo blanco
+        selected: '#5E17EB',//morado mdw
+        verdeclaro: '#678477',//morado mdw
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
