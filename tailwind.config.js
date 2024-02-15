@@ -23,6 +23,12 @@ export default {
       },
       backgroundImage: {
         "hero-mobile": "url('/src/assets/sm-herobg.png')",
+        "hero-gr": "linear-gradient(180deg, #FFF 77.5%, rgba(255, 255, 255, 0.00) 100%);",
+        "tul-serv": "url('/src/assets/tul-serv-bg.png')",
+        "tul-serv-mobile": "url('/src/assets/sm-tul-serv-bg.png')",
+        "pink-gr": "linear-gradient(180deg, rgba(255, 255, 255, 0.52) 0%, #F8D0D1 30%, #F8D0D1 100%);",
+        "serv-gr": "linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 55.08%);",
+        "serv-gr2": "linear-gradient(180deg, #FEF9F5 0%, rgba(254, 249, 245, 0.62) 100%)",
       },
     },
   },
