@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { Navbar, Hero, Tulsi, Servicios, Agendar, Testimonios, ArteTerapia, FAQ, Contacto} from './components';
+import { Navbar, Hero, Tulsi, Servicios, Agendar, Testimonios, FAQ, Contacto} from './components';
 
 
 const App = () => {
@@ -17,7 +17,6 @@ const App = () => {
         </section>
         <Agendar/>
         <Testimonios/>
-        <ArteTerapia/>
         <FAQ/>
         <Contacto/>
       </div>

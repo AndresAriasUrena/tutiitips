@@ -62,19 +62,23 @@ const servicios = [
 
 const arteterapia = [
     {
-        title: 'Ejercicio 1',
+        title: 'Ejercicio Teatral',
         img: arte1,
     },
     {
-        title: 'Ejercicio 2',
+        title: 'Expresión Corporal',
         img: arte2,
     },
     {
-        title: 'Ejercicio 3',
+        title: 'Pintura',
         img: arte3,
     },
     {
-        title: 'Ejercicio 4',
+        title: 'Danza',
+        img: tulsi,
+    },
+    {
+        title: 'Canto',
         img: arte4,
     },
 ]

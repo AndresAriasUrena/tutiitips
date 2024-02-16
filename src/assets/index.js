@@ -17,6 +17,8 @@ import familia from './servicios/familia.png';
 import individual from './servicios/individual.png';
 import pareja from './servicios/pareja.png';
 
+import quote from './quote.png';
+
 export{
     logo,
     menu,
@@ -33,4 +35,5 @@ export{
     familia,
     individual,
     pareja,
+    quote,
 };
