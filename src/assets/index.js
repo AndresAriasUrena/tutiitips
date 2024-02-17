@@ -18,6 +18,9 @@ import individual from './servicios/individual.png';
 import pareja from './servicios/pareja.png';
 
 import quote from './quote.png';
+import instagram from './instagram.png';
+import whatsapp from './whatsapp.png';
+import facebook from './facebook.png';
 
 export{
     logo,
@@ -36,4 +39,7 @@ export{
     individual,
     pareja,
     quote,
+    instagram,
+    whatsapp,
+    facebook,
 };

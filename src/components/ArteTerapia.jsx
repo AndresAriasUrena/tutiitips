@@ -39,8 +39,8 @@ const ArteTerapia = () => {
   const customLeftArrow = (
     <div className="absolute arrow-btn text-center px-3 py-1 cursor-pointer bg-transparent text-tertiary border-2 border-tertiary rounded-full text-xl"
          style={{ 
-          bottom: `0.5rem`,
-          left: `0.5rem`,
+          bottom: `1rem`,
+          left: `1rem`,
           }}
       >&#10094;
       {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -52,8 +52,8 @@ const ArteTerapia = () => {
   const customRightArrow = (
     <div className="absolute arrow-btn text-center px-3 py-1 cursor-pointer bg-transparent text-tertiary border-2 border-tertiary rounded-full text-xl"
          style={{ 
-         bottom: `0.5rem`,
-         right: `0.5rem`,
+         bottom: `1rem`,
+         right: `1rem`,
          }}
       >&#10095;
       {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
