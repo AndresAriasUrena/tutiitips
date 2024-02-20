@@ -1,4 +1,6 @@
 import React from 'react'
+import { SectionWrapper } from '../hoc';
+
 
 const Agendar = () => {
   return (
@@ -10,4 +12,4 @@ const Agendar = () => {
   )
 }
 
-export default Agendar
+export default SectionWrapper(Agendar, 'agenda')

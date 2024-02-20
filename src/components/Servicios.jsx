@@ -4,6 +4,8 @@ import 'react-multi-carousel/lib/styles.css';
 
 import {servicios} from '../constants';
 
+import { SectionWrapper } from '../hoc';
+
 const responsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 1024 },
@@ -83,8 +85,8 @@ const ServiciosSlider = () =>{
 
 const Servicios = () => {
   return (
-    <div className='flex flex-col gap-8 justify-center items-center pb-8'>
-      <h1 className='text-white uppercase text-2xl md:text-3xl tracking-widest md:mt-8'>Servicios</h1>
+    <div className='flex flex-col gap-8 justify-center items-center pb-8 lg:max-w-[80%] lg:mx-auto'>
+      <h1 className='text-white uppercase text-3xl tracking-widest mt-8'>Servicios</h1>
       <div className='border-white w-[80%] rounded h-96 text-center'>
         <ServiciosSlider/>
       </div>
@@ -93,4 +95,4 @@ const Servicios = () => {
   )
 }
 
-export default Servicios
+export default SectionWrapper(Servicios, 'servicios');

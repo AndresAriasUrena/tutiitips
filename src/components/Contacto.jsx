@@ -3,6 +3,7 @@ import {styles} from '../style';
 import { navLinks} from '../constants';
 
 import { instagram, whatsapp, facebook} from '../assets';
+import { SectionWrapper } from '../hoc';
 
 const Contacto = () => {
   return (
@@ -10,7 +11,7 @@ const Contacto = () => {
       <div className='md:max-w-[768px] mx-auto p-4 flex flex-col md:flex-row gap-6 md:justify-between'>  
         <div className='hidden md:block'>
           <h1 className='font-semibold text-lg pb-2'>Enlaces:</h1>
-          <ul className='flex flex-col gap-3 pl-4'>
+          <ul className='flex flex-col gap-2 pl-4'>
             {navLinks.map((link) =>(
               <li key={link.id}
               className=''
@@ -58,4 +59,4 @@ const Contacto = () => {
   )
 }
 
-export default Contacto
+export default SectionWrapper(Contacto, 'contacto');

@@ -1,5 +1,6 @@
 import React from 'react'
 import ArteTerapia from './ArteTerapia'
+import { SectionWrapper } from '../hoc';
 import { libroBanner, quote } from '../assets'
 
 const Testimonios = () => {
@@ -35,4 +36,4 @@ const Testimonios = () => {
   )
 }
 
-export default Testimonios
+export default SectionWrapper(Testimonios, 'testimonios');
