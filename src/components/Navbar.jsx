@@ -8,6 +8,7 @@ import { logo, menu, close} from '../assets';
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
+  const [rotate, setRotate] = useState(false);
 
   return (
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-30 bg-transparent md:bg-hero-gr`}>
@@ -37,10 +38,11 @@ const Navbar = () => {
           ))}
           <a href='#agenda' onClick={()=>{setActive('')}} className='bg-secondary py-2 px-4 rounded-full hover:bg-verdeclaro text-primary hover:text-secondary'>Agendar cita</a>
         </ul>
-        <div className='md:hidden flex flex-1 justify-end items-center'>
-            <img src={toggle ? close : menu} alt='boton menu' className='w-9 h-9 mt-20 fixed z-50 object-contain' 
+        <div className={`md:hidden flex flex-1 justify-end items-center`}>
+            <img src={toggle ? close : menu} alt='boton menu' className={`w-9 h-9 mt-20 fixed z-50 object-contain ${rotate ? 'transform rotate-180': ''} ease-in-out duration-700`} 
                 onClick={()=>{
-                  setToggle(!toggle)
+                  setToggle(!toggle);
+                  setRotate(!rotate);
                 }}
             />
             <div className={`fixed pt-24 pl-16 h-full w-full bg-verdeclaro top-0 z-40 text-tertiary 
