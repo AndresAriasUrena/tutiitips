@@ -25,24 +25,24 @@ const Contacto = () => {
           <div className='flex flex-col gap-2 w-[300px] md:w-auto'>
             <h1 className='font-semibold  text-lg'>Contáctame</h1>
             <div>  
-              <p className=''>tulsi@tutitips.com</p>
-              <p className=''>(506) 8784-5969</p>
+              <p className=''>tulssdiaza@gmail.com</p>
+              <p className=''>(+506) 8784-5969</p>
             </div>
-            <div className='flex gap-2 mt-1'>
-              <a href="/">
+            <div className='flex gap-4 mt-1'>
+              <a href="https://www.instagram.com/tutiitips/">
                 <img src={instagram} alt="instagram link" width={40} height={40} />
               </a>
-              <a href="/">
+              <a target='_blank' href="https://api.whatsapp.com/send?phone=50687845969&text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20para%20agendar%20una%20sesi%C3%B3n%20de%20psicolog%C3%ADa%20%F0%9F%99%8F%F0%9F%8F%BB%E2%9C%A8">
                 <img src={whatsapp} alt="whatsapp link" width={40} height={40} />
               </a>
-              <a href="/">
+              {/* <a href="/">
                 <img src={facebook} alt="facebook link" width={40} height={40} />
-              </a>
+              </a> */}
             </div>
           </div>
           <div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25506.130537568824!2d-84.06222117479629!3d9.909207811165041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scr!4v1708147335594!5m2!1ses!2scr"
+              src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d2624.2939252844344!2d-84.12071000620885!3d9.956604129679597!3m2!1i1024!2i768!4f13.1!2m1!1sAvenida%2047%2C%20San%20Jos%C3%A9%2C%20Costa%20Rica!5e0!3m2!1sen!2scr!4v1708406698150!5m2!1sen!2scr"
               width="300"
               height="225"
               style={{ border: '0' }}
