@@ -7,6 +7,7 @@ import{
     arte2,
     arte3,
     arte4,
+    arte5,
     arte,
     educacion,
     familia,
@@ -75,11 +76,11 @@ const arteterapia = [
     },
     {
         title: 'Danza',
-        img: tulsi,
+        img: arte4,
     },
     {
         title: 'Canto',
-        img: arte4,
+        img: arte5,
     },
 ]
 const preguntas = [

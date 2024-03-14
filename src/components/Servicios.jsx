@@ -28,9 +28,9 @@ const responsive = {
 const CartaServicio = ({servicio}) =>{
   return(
     <div className='relative h-full rounded md:flex'>
-      <div className='relative bg-center bog-no-repeat bg-cover h-96 w-full' 
+      <div className='relative bg-center rounded bog-no-repeat bg-cover h-96 w-full' 
             style={{backgroundImage: `url('${servicio.img}')`}}/>
-      <div className='absolute md:relative bottom-0 h-40 bg-serv-gr flex justify-center w-full items-end z-10 md:w-[50%] md:h-full md:bg-serv-gr2 md:backdrop-blur md:items-center'>
+      <div className='absolute rounded md:relative bottom-0 h-40 bg-serv-gr flex justify-center w-full items-end z-10 md:w-[50%] md:h-full md:bg-serv-gr2 md:backdrop-blur md:items-center'>
         <h1 className='p-4 pb-6 text-center md:text-left text-primary md:text-2xl md:text-left md:p-8'>{servicio.title}</h1>
       </div>
     </div>
@@ -85,12 +85,12 @@ const ServiciosSlider = () =>{
 
 const Servicios = () => {
   return (
-    <div className='flex flex-col gap-8 justify-center items-center pb-8 lg:max-w-[80%] lg:mx-auto'>
+    <div className='flex flex-col gap-16 md:mt-16 md:pb-16 justify-center items-center pb-8 lg:max-w-[80%] lg:mx-auto'>
       <h1 className='text-white uppercase text-3xl tracking-widest mt-8'>Servicios</h1>
       <div className='border-white w-[80%] rounded h-96 text-center'>
         <ServiciosSlider/>
       </div>
-        <a href='#agenda' className='relative bottom-0 py-2 px-6 w-max rounded-full bg-secondary hover:bg-verdeclaro text-primary hover:text-secondary'>Agendar cita</a>
+        <a href='#agenda' className='relative bottom-0 py-2 px-6 w-max rounded-full bg-secondary hover:bg-verdeclaro text-verdeoscuro hover:text-secondary'>Agendar cita</a>
     </div>
   )
 }

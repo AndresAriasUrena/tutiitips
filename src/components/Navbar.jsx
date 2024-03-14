@@ -29,14 +29,14 @@ const Navbar = () => {
               key={link.id}
               className={`${active === link.title
                             ? 'text-selected'
-                            : 'text-primary'
+                            : 'text-verdeoscuro'
               } self-center hover:text-selected lg:text-[18px] font-medium cursor-pointer`}
               onClick={()=>setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
-          <a href='#agenda' onClick={()=>{setActive('')}} className='bg-secondary py-2 px-4 rounded-full hover:bg-verdeclaro text-primary hover:text-secondary'>Agendar cita</a>
+          <a href='#agenda' onClick={()=>{setActive('')}} className='bg-secondary py-2 px-4 rounded-full hover:bg-verdeclaro text-tertiary hover:text-tertiary'>Agendar cita</a>
         </ul>
         <div className={`md:hidden flex flex-1 justify-end items-center`}>
             <img src={toggle ? close : menu} alt='boton menu' className={`w-9 h-9 mt-20 fixed z-50 object-contain ${rotate ? 'transform rotate-180': ''} ease-in-out duration-700`} 

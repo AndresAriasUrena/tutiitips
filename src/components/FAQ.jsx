@@ -13,7 +13,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className='container mx-auto my-20 text-primary'>
+    <div className=' container mx-auto my-20 text-primary'>
       <h1 className='text-center mb-14 text-3xl px-4 tracking-wider'>¿Tienes alguna pregunta?</h1>
       <div className='mx-auto max-w-[768px]'>
         <Collapse defaultActiveKey={['1']} onChange={onChange}>
