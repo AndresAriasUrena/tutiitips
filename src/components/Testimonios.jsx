@@ -7,7 +7,7 @@ import { abril } from '../assets';
 const Testimonios = () => {
   return (
     <div>
-      <div className='max-h-30 overflow-hidden h-full flex bg-book-cover-mb md:bg-book-cover bg-cover h-[600px] md:h-[264px] gap-4 content-center'>
+      <div className='max-h-30 overflow-hidden h-full flex bg-book-cover-mb md:bg-book-cover bg-cover h-[600px] md:h-[300px] gap-4 content-center'>
         <div className='w-full h-full backdrop-blur-sm bg-black/30 flex'>
           <div className='flex p-4 gap-4 items-center justify-center mx-auto'>
             <div className='w-full md:w-[200px]'>
