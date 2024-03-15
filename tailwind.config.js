@@ -34,6 +34,8 @@ export default {
         "agendar-gr": "linear-gradient(90deg, #448D6C 0%, #1A5652 100%);",
         "testimonios-gr": "linear-gradient(270deg, #024143 31.86%, #FFF 68.39%);",
         "art-gr": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 55.08%);",
+        "book-cover": "url('/src/assets/portada.png')",
+        "book-cover-mb": "url('/src/assets/portadasm.png')",
       },
     },
   },

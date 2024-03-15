@@ -5,6 +5,7 @@ import close from './close.svg';
 import libroBanner from './portada.png';
 import tulsi from './tulsi-img.png';
 import hero from './hero-img.png';
+import abril from './abril.png'
 
 import arte1 from './arte-terapia/chicas-abrazo-drama.png';
 import arte2 from './arte-terapia/chica-brazos-cruz-nuca.png';
@@ -44,4 +45,5 @@ export{
     instagram,
     whatsapp,
     facebook,
+    abril,
 };
