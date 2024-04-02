@@ -13,10 +13,10 @@ const Hero = () => {
       <div className="relative h-full bg-hero-mobile md:bg-none bg-bottom bg-no-repeat bg-cover md:flex md:pt-32 lg:max-w-[80%] lg:mx-auto">
         <div className="px-8 md:px-16 flex flex-col gap-4 md:gap-8 text-center md:text-left items-center justify-center md:items-start md:w-[50%]">
           <img src={logo} alt='tutitips logo' className='w-24 h-24 object-contain mt-20 md:hidden'/>
-          <p className="text-primary font-medium text-lg md:text-xl leading-10 tracking-wide">
+          <p className="text-verdeoscuro font-medium text-lg md:text-2xl leading-10 tracking-wide">
             Te regalo mi escucha y herramientas para descubrir la magia que hay detrás de tus heridas emocionales.
           </p>
-          <a href='#agenda' className='bg-primary md:bg-secondary py-2 px-6 w-max rounded-full hover:bg-verdeclaro text-tertiary hover:text-secondary'>Agendar una cita</a>
+          <a href='#agenda' className='bg-primary md:bg-secondary py-2 px-6 w-max rounded-full hover:bg-primary text-tertiary hover:text-tertiary'>Agendar una cita</a>
         </div>
         <div className="hidden md:w-[50%] md:flex justify-end">
           <div className="w-[90%] h-full bg-primary py-8 flex items-center">

@@ -5,12 +5,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#2B5C58",//verde oscuro
+        primary: "#678477",//verde oscuro
         // primary: "#FFFFFF",
         secondary: "#F8D0D1",//rosado boton
         tertiary: "#FEF9F5",//fondo blanco
         selected: '#5E17EB',//morado mdw
-        verdeclaro: '#678477',//verde menu
+        verdeclaro: "#678477",//verde menu
+        verdeoscuro: "#2B5C58",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
@@ -33,6 +34,8 @@ export default {
         "agendar-gr": "linear-gradient(90deg, #448D6C 0%, #1A5652 100%);",
         "testimonios-gr": "linear-gradient(270deg, #024143 31.86%, #FFF 68.39%);",
         "art-gr": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 55.08%);",
+        "book-cover": "url('/src/assets/portada.png')",
+        "book-cover-mb": "url('/src/assets/portadasm.png')",
       },
     },
   },
