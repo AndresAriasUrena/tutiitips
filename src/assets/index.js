@@ -23,6 +23,7 @@ import quote from './quote.png';
 import instagram from './instagram.png';
 import whatsapp from './whatsapp.png';
 import facebook from './facebook.png';
+import waze from './waze.png';
 
 export{
     logo,
@@ -46,4 +47,5 @@ export{
     whatsapp,
     facebook,
     abril,
+    waze,
 };
