@@ -75,6 +75,19 @@
   );
 }
 
+.text-stoke {
+  text-align: center;
+-webkit-text-stroke-width: 3;
+-webkit-text-stroke-color: #FFF;
+font-family: "Zen Kaku Gothic Antique";
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 8.25px;
+text-transform: uppercase;
+}
+
 .green-pink-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);

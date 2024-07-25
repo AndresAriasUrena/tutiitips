@@ -1,8 +1,8 @@
-import React from 'react'
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import React from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
-import {arteterapia} from '../constants';
+import { arteterapia } from "../constants";
 
 const responsive = {
   superLargeDesktop: {
@@ -23,26 +23,32 @@ const responsive = {
   },
 };
 
-const CartaArte = ({arte}) =>{
-  return(
-    <div className='relative h-full rounded'>
-      <div className='relative bg-center bog-no-repeat bg-cover h-96 w-full' 
-            style={{backgroundImage: `url('${arte.img}')`}}/>
-      <div className='absolute bottom-0 h-30 bg-art-gr flex justify-center w-full items-end z-10'>
-        <h1 className='p-4 pb-6 text-center md:text-left text-tertiary md:text-2xl md:text-left md:p-8'>{arte.title}</h1>
+const CartaArte = ({ arte }) => {
+  return (
+    <div className="relative h-full rounded">
+      <div
+        className="relative bg-center bg-no-repeat bg-cover h-96 w-full"
+        style={{ backgroundImage: `url('${arte.img}')` }}
+      />
+      <div className="absolute bottom-0 h-30 bg-art-gr flex justify-center w-full items-end z-10">
+        <h1 className="p-4 pb-6 text-center text-tertiary md:text-2xl md:text-left md:p-8">
+          {arte.title}
+        </h1>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const ArteTerapia = () => {
   const customLeftArrow = (
-    <div className="absolute arrow-btn text-center px-3 py-1 cursor-pointer bg-transparent text-tertiary border-2 border-tertiary rounded-full text-xl"
-         style={{ 
-          bottom: `1rem`,
-          left: `1rem`,
-          }}
-      >&#10094;
+    <div
+      className="absolute arrow-btn text-center px-3 py-1 cursor-pointer bg-transparent text-tertiary border-2 border-tertiary rounded-full text-xl"
+      style={{
+        bottom: `1rem`,
+        left: `1rem`,
+      }}
+    >
+      &#10094;
       {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
       </svg> */}
@@ -50,12 +56,14 @@ const ArteTerapia = () => {
   );
 
   const customRightArrow = (
-    <div className="absolute arrow-btn text-center px-3 py-1 cursor-pointer bg-transparent text-tertiary border-2 border-tertiary rounded-full text-xl"
-         style={{ 
-         bottom: `1rem`,
-         right: `1rem`,
-         }}
-      >&#10095;
+    <div
+      className="absolute arrow-btn text-center px-3 py-1 cursor-pointer bg-transparent text-tertiary border-2 border-tertiary rounded-full text-xl"
+      style={{
+        bottom: `1rem`,
+        right: `1rem`,
+      }}
+    >
+      &#10095;
       {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
       </svg> */}
@@ -63,20 +71,20 @@ const ArteTerapia = () => {
   );
   return (
     <div className="">
-        <Carousel 
-          infinite 
-          customLeftArrow={customLeftArrow} 
-          customRightArrow={customRightArrow} 
-          responsive={responsive} 
-          itemClass="rounded-md"
-        >
-          {arteterapia.map((arte, index) => (
-            <CartaArte key={index} arte={arte}/>
-          ))}
-          {/* <div>1</div> */}
-        </Carousel>
-      </div>
-  )
-}
+      <Carousel
+        infinite
+        customLeftArrow={customLeftArrow}
+        customRightArrow={customRightArrow}
+        responsive={responsive}
+        itemClass="rounded-md"
+      >
+        {arteterapia.map((arte, index) => (
+          <CartaArte key={index} arte={arte} />
+        ))}
+        {/* <div>1</div> */}
+      </Carousel>
+    </div>
+  );
+};
 
-export default ArteTerapia
+export default ArteTerapia;

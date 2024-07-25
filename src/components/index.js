@@ -7,12 +7,14 @@ import Testimonios from "./Testimonios";
 import ArteTerapia from "./ArteTerapia";
 import FAQ from "./FAQ";
 import Contacto from "./Contacto";
+import Taller from "./Taller";
 
 export{
     Hero,
     Navbar,
     Tulsi,
     Servicios,
+    Taller,
     Agendar,
     Testimonios,
     ArteTerapia,

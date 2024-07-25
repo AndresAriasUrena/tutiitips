@@ -25,11 +25,18 @@ import whatsapp from './whatsapp.png';
 import facebook from './facebook.png';
 import waze from './waze.png';
 
+import taller1 from './taller1.jpeg';
+import taller2 from './taller2.jpeg';
+import taller3 from './taller3.jpeg';
+
 export{
     logo,
     menu,
     close,
     libroBanner,
+    taller1,
+    taller2,
+    taller3,
     tulsi,
     hero,
     arte1,

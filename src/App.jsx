@@ -1,15 +1,25 @@
 import { BrowserRouter } from "react-router-dom";
-import { Navbar, Hero, Tulsi, Servicios, Agendar, Testimonios, FAQ, Contacto } from './components';
-import{
-whatsapp
-} from './assets';
-
+import {
+  Navbar,
+  Hero,
+  Tulsi,
+  Taller,
+  Servicios,
+  Agendar,
+  Testimonios,
+  FAQ,
+  Contacto,
+} from "./components";
+import { whatsapp } from "./assets";
 
 const App = () => {
-
   return (
     <BrowserRouter>
-      <a href="https://api.whatsapp.com/send?phone=50687845969" class="btn-wsp" target="_blank">
+      <a
+        href="https://api.whatsapp.com/send?phone=50687845969"
+        class="btn-wsp"
+        target="_blank"
+      >
         {/* <image src={whatsapp} alt="" class="fa" /> */}
         <i class="fa fa-whatsapp"></i>
       </a>
@@ -20,6 +30,7 @@ const App = () => {
         </div>
         <section className="h-auto bg-tul-serv-mobile md:bg-tul-serv bg-cover bg-center">
           <Tulsi />
+          <Taller />
           <Servicios />
         </section>
         <Agendar />
@@ -28,7 +39,7 @@ const App = () => {
         <Contacto />
       </div>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default App
+export default App;
