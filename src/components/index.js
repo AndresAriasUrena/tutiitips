@@ -9,6 +9,10 @@ import FAQ from "./FAQ";
 import Contacto from "./Contacto";
 import Taller from "./Taller";
 
+import Blog from "./Blog";
+import BlogThumbnail from "./BlogThumbnail";
+import BlogList from "./BlogList";
+
 export{
     Hero,
     Navbar,
@@ -20,4 +24,7 @@ export{
     ArteTerapia,
     FAQ,
     Contacto,
+    Blog,
+    BlogThumbnail,
+    BlogList,
 }

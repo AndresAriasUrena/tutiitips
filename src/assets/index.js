@@ -29,6 +29,9 @@ import taller1 from './taller1.jpeg';
 import taller2 from './taller2.jpeg';
 import taller3 from './taller3.jpeg';
 
+import BlogSectionBG from './BlogSecBg.png';
+import bedpaint from './blog1/bedpaint.png';
+
 export{
     logo,
     menu,
@@ -55,4 +58,6 @@ export{
     facebook,
     abril,
     waze,
+    BlogSectionBG,
+    bedpaint,
 };

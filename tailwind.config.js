@@ -12,6 +12,7 @@ export default {
         selected: '#5E17EB',//morado mdw
         verdeclaro: "#678477",//verde menu
         verdeoscuro: "#2B5C58",
+        customGray: '#D9D9D9',
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
@@ -36,6 +37,7 @@ export default {
         "art-gr": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 55.08%);",
         "book-cover": "url('/src/assets/portada.png')",
         "book-cover-mb": "url('/src/assets/portadasm.png')",
+        "blog-sec-bg": "url('/src/assets/BlogSecBg.png')",
       },
     },
   },
