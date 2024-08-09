@@ -29,8 +29,17 @@ import taller1 from './taller1.jpeg';
 import taller2 from './taller2.jpeg';
 import taller3 from './taller3.jpeg';
 
+import blogBg from './blog-bg.png'
+
 import BlogSectionBG from './BlogSecBg.png';
 import bedpaint from './blog1/bedpaint.png';
+import ilustrativa1 from './blog1/ilustrativa1.png';
+import ilustrativa2 from './blog1/ilustrativa2.png';
+import ilustrativa3 from './blog1/ilustrativa3.png';
+import manada from './blog1/manada.png';
+import manada2 from './blog1/manada2.png';
+import cama from './blog1/cama.png';
+import couple from './blog1/couple.png';
 
 export{
     logo,
@@ -58,6 +67,14 @@ export{
     facebook,
     abril,
     waze,
+    blogBg,
     BlogSectionBG,
     bedpaint,
+    ilustrativa1,
+    ilustrativa2,
+    ilustrativa3,
+    manada,
+    manada2,
+    cama,
+    couple,
 };

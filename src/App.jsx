@@ -12,9 +12,10 @@ import {
   Blog,
   BlogThumbnail,
   BlogList,
+  Layout,
 } from "./components";
 import { whatsapp } from "./assets";
-import { blogPosts } from "./blogData";
+import { blogPosts } from "./blogData.jsx";
 
 const App = () => {
   return (
@@ -29,7 +30,7 @@ const App = () => {
       <div className="relative z-0 overflow-x-hidden">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/blog/:id" element={<Blog />} />
+          <Route path="/blog/:id" element={<Layout><Blog /></Layout>} />
         </Routes>
       </div>
     </Router>

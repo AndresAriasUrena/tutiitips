@@ -9,6 +9,9 @@ import FAQ from "./FAQ";
 import Contacto from "./Contacto";
 import Taller from "./Taller";
 
+import NavbarBlog from "./NavbarBlog";
+import Layout from "./Layout";
+
 import Blog from "./Blog";
 import BlogThumbnail from "./BlogThumbnail";
 import BlogList from "./BlogList";
@@ -27,4 +30,6 @@ export{
     Blog,
     BlogThumbnail,
     BlogList,
+    NavbarBlog,
+    Layout,
 }
