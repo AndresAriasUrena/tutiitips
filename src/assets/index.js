@@ -41,6 +41,17 @@ import manada2 from './blog1/manada2.png';
 import cama from './blog1/cama.png';
 import couple from './blog1/couple.png';
 
+import escultura from './blog2/escultura.png';
+import soyfuria from './blog2/soyfuria.png';
+import fontana from './blog2/fontana.png';
+import excavar from './blog2/excavar.png';
+import moai from './blog2/moai.png';
+import egipto from './blog2/egipto.png';
+import tortura from './blog2/tortura.png';
+import escultura2 from './blog2/escultura2.png';
+import camina from './blog2/camina.png';
+
+
 export{
     logo,
     menu,
@@ -77,4 +88,13 @@ export{
     manada2,
     cama,
     couple,
+    escultura,
+    soyfuria,
+    fontana,
+    excavar,
+    moai,
+    egipto,
+    tortura,
+    escultura2,
+    camina,
 };

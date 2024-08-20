@@ -1,4 +1,22 @@
-import { bedpaint, manada, manada2, cama, couple, ilustrativa1, ilustrativa2, ilustrativa3 } from "./assets"; // Asegúrate de importar todas las imágenes necesarias
+import { 
+  bedpaint, 
+  manada, 
+  manada2, 
+  cama, 
+  couple, 
+  ilustrativa1, 
+  ilustrativa2, 
+  ilustrativa3,
+  escultura,
+  soyfuria,
+  fontana,
+  excavar,
+  moai,
+  egipto,
+  tortura,
+  escultura2,
+  camina,
+ } from "./assets"; // Asegúrate de importar todas las imágenes necesarias
 
 export const blogPosts = [
   {
@@ -88,5 +106,132 @@ export const blogPosts = [
     ),
     thumbnail: bedpaint,
   },
-  // Puedes agregar más entradas de blog aquí de la misma manera
+  {
+    id: 2, // Asegúrate de que el ID es único
+    title: "¿Soy un tajo abandonado o una obra en construcción?",
+    summary: "Reflexiones sobre el crecimiento personal y la lucha interna en medio de tus propias crisis.",
+    thumbnail: escultura, // Asegúrate de proporcionar la ruta correcta a la imagen del thumbnail
+    content: (
+      <>
+        <p>
+          El viernes pasado, fui a un tajo abandonado que se ha convertido en una maravillosa obra de arte. Esto me llevó a pensar en mi mente: ¿Soy un tajo abandonado o una obra en construcción?
+        </p>
+        <img src={fontana} alt="Fuente del anfiteatro de Villa" className="my-4 md:max-w-[25rem] mx-auto" />
+        <p>
+          Lo más difícil de mis diagnósticos de salud mental en los últimos dos años fue darme cuenta de que tengo comorbilidad y otros detalles que me negaba a creer. La comorbilidad es la presencia de dos o más enfermedades al mismo tiempo.
+        </p>
+        <p>
+          Y yo no sé si esto es un término científico o si son todos mis demonios dándose la mano e invitándome a su paraíso.
+        </p>
+        <p>
+          Hoy tuve una crisis que detonó mi estrés postraumático... Fue una de esas crisis donde de pronto te sientes completamente intoxicada de dolor y desesperanza. Y entonces me pregunté:
+        </p>
+        <blockquote>
+          <p>¿Cómo funciona mi crecimiento cuando dejo de confiar en mi mente por estar llena de contradicciones?</p>
+          <p>¿Cuándo el juicio es una eterna sensación de injusticia, a quién se encarcela? ¿A mis sentimientos o mis impulsos, a la furia punitiva o mi eterno deseo de autodestrucción mediante las relaciones idílicas e inaccesibles?</p>
+          <p>¿Qué pasa cuando el juez se retira antes de dar una sentencia?</p>
+          <p>¿Quién vela por que exista un sistema que contenga el dolor que experimenté?</p>
+          <p>¿Dónde está la caja de objetos perdidos, para buscar si ahí calló la esperanza de mis terapeutas y amigos?</p>
+          <p>¿A quién le pregunto? ¿Cuál es la extensión de este departamento? ¿Con quién estoy hablando y por qué sigo aquí?</p>
+        </blockquote>
+        <p>
+          Ok. Tal vez no sea tan bonito leer que Tulsi, la psicóloga, también tiene cuestionamientos, traumas e ideaciones suicidas, pero yo aquí no juego el papel de psicóloga, aquí solo soy.
+        </p>
+        <p>
+          Soy explosión de emociones todo el tiempo, soy furia, mucha furia acumulada a la que nunca le permití conocer la luz, soy angustia y tormento, soy caos, mucho caos, desórdenes infernales, quiebres psicológicos y desesperanza.
+        </p>
+        {/* <img src="ruta/a/tu/imagen1.jpg" alt="Imagen representativa" className="my-4" /> */}
+        <img src={soyfuria} alt="Escultura atrapada en pared" className="my-4 md:max-w-[25rem] mx-auto" />
+
+        <p>
+          Esto, sin embargo, no creo que me haga una mala psicóloga, una persona hipócrita, doble cara o manipuladora, me hace una persona integral. ¡Me hace una persona!
+        </p>
+        <p>
+          En mis cumpleaños y a lo largo de mi exposición como terapeuta, he recibido muchas frases diciendo que soy luz, que soy brillo, magia y muchas etiquetas positivas, pero yo lo que les quiero decir es que soy oscuridad.
+        </p>
+        <p>
+          Durante muchísimo tiempo le tuve miedo, incluso le tendía trampas, con lámparas y estrellitas en el techo.
+        </p>
+        <p>
+          Pero nunca pude escapar de ella, ni de mi mente, ni de mi tendencia a excavar.
+        </p>
+        <p>
+          Al excavar varios caminos, le dejé de temer a mis ideaciones autodestructivas y entendí que ellas viven aquí, en la mina de mi cerebro, junto a mis heridas cicatrizantes y las respiraciones que aprendí para poder abrir ductos de ventilación.
+        </p>
+        <img src={excavar} alt="Foto de tunel en anfiteatro" className="my-4 md:max-w-[25rem] mx-auto" />
+
+        <h3 className="font-bold text-3xl">STORY TIME</h3>
+        <p>
+          Ayer fui al Anfiteatro De Villa, esto como parte de mis habituales intentos para conocer lugares nuevos y brindarme más placer.
+        </p>
+        <p>
+          La experiencia me sorprendió más de lo que esperaba porque más que un lugar nuevo, este paseo me trazó todo un nuevo camino neuronal que hoy te quiero compartir.
+        </p>
+        <p>
+          Este lugar fue creado por la astucia de un padre curioso y creativo, que literal movió montañas para hacer sus sueños realidad.
+        </p>
+        <p>
+          Anfiteatro De Villa es una montaña que se creó en un lugar que solía ser un tajo abandonado, o una planta de concreto que dañaba el medio ambiente, y así de pronto, algo que parecía un lugar oscuro y sin futuro se convirtió en una experiencia enriquecedora, inspiradora y llena de arte por montones.
+        </p>
+        <img src={moai} alt="Escultura moai enterrada" className="my-4 md:max-w-[25rem] mx-auto" />
+
+        <p>
+          El dueño empezó con 10 hombres valientes que dedicaron sudor y fuerza a este proyecto, ahora son cientos de personas las que disfrutan de este lugar, ya que tras varios estudios geológicos le dieron luz verde o viabilidad a este sueño de ingresar en la montaña y crear caminos nuevos dentro de lo que se consideraba abandonado.
+        </p>
+        <p>
+          Estar ahí básicamente es como la experiencia de entrar a una mina, podemos observar el interior de la montaña de manera hermosa y segura, dentro de ella hicieron aproximadamente 14 salones y caminos que se entrecruzan y comunican.
+        </p>
+        <p>
+          Y si bien es cierto que ver toda esta infraestructura novedosa, llena de obras de arte y miles de referencias históricas, me llenó de emoción, lo que más me dio fue esperanza.
+        </p>
+        <p>
+          Me dio algo así como un espejo de mi mente, como un pequeño adelanto o spoiler de la construcción de esta loca y desenfrenada mente.
+        </p>
+        <p>
+          ¡Oh mente mía! Muchas veces abandonada o contaminada, pero tantas otras con gente valiente que me inunda de herramientas e ideas para construir.
+        </p>
+        <p>
+          Dentro de Anfiteatro De Villa, hay habitaciones religiosas y otras que simulan el infierno, hay referencias egipcias y también mayas, hay musas angelicales y máquinas de tortura simulando e informando sobre las antiguas prácticas brutales de nuestra historia tales como la guillotina o la silla de púas.
+        </p>
+        <img src={egipto} alt="Salon alusivo a arte egipcio" className="my-4 md:max-w-[25rem] mx-auto" />
+        <img src={tortura} alt="Salon alusivo a instrumentos medievales de tortura" className="my-4 md:max-w-[25rem] mx-auto" />
+
+        <p>
+          Y entonces caí en cuenta de una nueva pregunta espejo: ¿Estoy hablando del Anfiteatro de Villa o de mí?
+        </p>
+        <p>
+          ¿Por qué me parece tan maravilloso y admirable que la montaña tenga contrastes y variaciones, pero sigo recriminándome mis contradicciones y mi oscuridad?
+        </p>
+        <p>
+          ¿Por qué me permito decir que soy luz y cosas maravillosas, pero me cuesta tanto digerir cuando escribo o percibo cosas sobre mi caos y mi oscuridad?
+        </p>
+        <p>
+          Y de nuevo te digo, las respuestas no las sé muy bien, lo que sé es que he aprendido a hacerme mejores preguntas.
+        </p>
+        <p>
+          Si vos sos un caso abandonado por la contaminación y la desesperanza, a lo mejor este ejemplo te lleve a recordar que tus opciones de construcción son infinitas, la belleza no recae en tus zonas obvias de luz, sino en tu manera de excavar, conectar tus contrastes, y buscar válvulas de aire.
+        </p>
+        <p>
+          Podemos desear estar en el cuarto de la tortura y autodestrucción, pero también caminando un poco encontrarnos con la habitación del amor, el cuido y la belleza.
+        </p>
+        <p>
+          Podemos explorar y encontrarnos con ejércitos de lealtades protegiendo tumbas con las herencias de nuestro pasado, pero también áreas de celebraciones y triunfos históricos.
+        </p>
+        <img src={escultura2} alt="Escultura en jardin" className="my-4 md:max-w-[25rem] mx-auto" />
+        <p>
+          Podemos elegir degustar placeres gastronómicos en medio de la luz de nuestras musas y diosas o simplemente disfrutar de la oscuridad y la magia de ver un terreno que no se ha terminado de construir.
+        </p>
+        <p>
+          Porque eso sos, belleza, arte y contradicciones. También una obra que sigue en construcción, tenés la capacidad de generar nuevos caminos cerebrales como este que estoy experimentando en medio de escribir y procesar mi crisis de sábado por la tarde.
+        </p>
+        <img src={camina} alt="Tulsi caminando por la cueva" className="my-4 md:max-w-[25rem] mx-auto" />
+        <p>
+          No dejes de soñar con nuevas formas de integrar todas tus vivencias, crisis o placeres, sos una hermosa obra en construcción, aprende a apreciarte con la luz de tu oscuridad. Aprende a tenerte paciencia en medio de todas tus remodelaciones.
+        </p>
+        <p>Con amor,</p>
+        <p>Tul</p>
+      </>
+    ),
+  }
+  
 ];
