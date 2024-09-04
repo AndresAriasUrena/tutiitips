@@ -30,7 +30,14 @@ const App = () => {
       <div className="relative z-0 overflow-x-hidden">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/blog/:id" element={<Layout><Blog /></Layout>} />
+          <Route
+            path="/blog/:id"
+            element={
+              <Layout>
+                <Blog />
+              </Layout>
+            }
+          />
         </Routes>
       </div>
     </Router>
@@ -45,7 +52,7 @@ const Home = () => (
     </div>
     <section className="h-auto bg-tul-serv-mobile md:bg-tul-serv bg-cover bg-center">
       <Tulsi />
-      <Taller />
+      {/* <Taller /> */}
       <Servicios />
     </section>
     <Agendar />
