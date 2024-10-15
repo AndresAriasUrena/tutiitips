@@ -87,7 +87,7 @@ const ServiciosGrid = () => {
 
 const Servicios = () => {
   return (
-    <div className='flex flex-col gap-16 md:mt-16 md:pb-16 justify-center items-center pb-8 lg:max-w-[80%] lg:mx-auto'>
+    <div className='flex flex-col gap-16 md:mt-16 md:pb-16 justify-center items-center pb-8 lg:max-w-[100%] lg:mx-auto'>
       <h1 className='text-white uppercase text-3xl tracking-widest mt-8'>Servicios</h1>
       <div className='border-white w-[80%] rounded text-center'>
         <div className='hidden lg:block'>
