@@ -10,7 +10,7 @@ const Tulsi = () => {
     <div className="h-auto lg:max-w-[100%] items-center mx-auto md:mx-0 md:px-0">
       <div className="hidden md:block">
         <div className="md:flex md:flex-row-reverse mx-auto md:items-center md:self-center">
-          <div className="min-h-[45vh] md:translate-x-32 md:translate-y-12 md:z-20 md:min-h-0 md:w-auto md:max-w-[65%] lg:max-w-[60%] md:-ml-16">
+          <div className="min-h-[35vh] md:translate-x-32 md:translate-y-12 md:z-20 md:min-h-0 md:w-auto md:max-w-[65%] lg:max-w-[60%] md:-ml-16">
             <motion.div
               variants={slideIn("right", "tween", 0.3, 1)}
               className="relative z-20 top-16 md:static w-[90vw] md:w-[65%] text-verdeoscuro bg-pink-gr md:bg-secondary/30 md:top-36 drop-shadow-md p-4 md:p-6 md:rounded-md rounded"
@@ -38,7 +38,7 @@ const Tulsi = () => {
           </div>
           <motion.div
             variants={slideIn("left", "tween", 0.3, 1)}
-            className="min-h-[50vh] md:min-h-[120vh] w-full flex justify-start"
+            className="min-h-[50vh] md:min-h-[80vh] w-full flex justify-start"
           >
             <img
               src={tulsi}
@@ -88,3 +88,4 @@ const Tulsi = () => {
 };
 
 export default SectionWrapper(Tulsi, "tulsi");
+
