@@ -9,11 +9,11 @@ const Agendar = () => {
           src="https://app.simplymeet.me/tuti?is_widget=1&view=compact" 
           style={{ 
             width: '100%', 
-            height: 'calc(100vh - 100px)'  
+            height: '950px'  
           }} 
-          className='md:h-[80vh]'  
+          className='md:h-[80vh] py-3 h-[1000px]'  
           frameBorder="1" 
-          scrolling="no">
+          scrolling="yes">
         </iframe>
       </div>
     </section>
